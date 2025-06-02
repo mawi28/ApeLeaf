@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tentangapp">
+
+    <!-- Toolbar tanpa icon -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#3F7042"
+        android:elevation="2dp"
+        android:title="Deteksi Daun Apel"
+        android:titleTextColor="#FFFFFF"
+        android:theme="@style/ThemeOverlay.Material3.Dark.ActionBar"/>
+
+
+    <!-- ScrollView untuk konten -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- Logo -->
+            <ImageView
+                android:id="@+id/appLogo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/pohon"
+                android:contentDescription="Logo Aplikasi"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="32dp"
+                android:layout_gravity="center"/>
+
+            <!-- CardView: Deskripsi Aplikasi -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp"
+                android:backgroundTint="#C8E6C9"
+                android:layout_marginBottom="24dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:fontFamily="@font/baloo"
+                        android:gravity="center"
+                        android:text="Aplikasi Deteksi Penyakit Daun Apel"
+                        android:textColor="#1F3E21"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Aplikasi ini membantu mendeteksi penyakit pada daun apel, seperti Apple Scab, Black Rot, dan Cedar Apple Rust, menggunakan teknologi pengenalan gambar berbasis kecerdasan buatan.\n\nDengan antarmuka yang sederhana, pengguna dapat dengan mudah mendapatkan informasi tentang penyakit dan gejalanya. Aplikasi ini bertujuan mendukung perawatan apel agar hasil panen lebih baik dan berkelanjutan."
+                        android:textSize="16sp"
+                        android:textColor="#444444"
+                        android:lineSpacingExtra="8dp"
+                        android:justificationMode="inter_word" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp"
+                android:backgroundTint="#C8E6C9"
+                android:layout_marginBottom="24dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:fontFamily="@font/baloo"
+                        android:gravity="center"
+                        android:text="Cara Pemakaian"
+                        android:textColor="#1F3E21"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewPetunjuk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1. Buka aplikasi dan pilih menu deteksi.\n2. Ambil gambar daun apel atau pilih dari galeri.\n3. Tunggu proses analisis selesai.\n4. Hasil deteksi akan ditampilkan bersama dengan informasi penyakit.\n5. Tekan tombol 'Lihat Detail' untuk melihat informasi penyakit lebih lanjut.\n6. Pada halaman utama terdapat daftar lengkap penyakit yang dapat diklik untuk melihat detailnya.\n\nGunakan gambar daun yang jelas dan tidak buram agar hasil deteksi lebih akurat."
+                        android:textSize="16sp"
+                        android:textColor="#444444"
+                        android:lineSpacingExtra="8dp"
+                        android:justificationMode="inter_word" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

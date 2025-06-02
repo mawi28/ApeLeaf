@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="300dp"
+    android:viewportWidth="300"
+    android:viewportHeight="300">
+
+    <!-- Daun abstrak sederhana -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="
+            M150,20
+            C130,70 90,100 60,140
+            C40,180 60,230 110,260
+            C150,290 190,260 230,210
+            C260,160 230,120 210,90
+            C190,60 170,30 150,20
+            Z" />
+
+    <path
+        android:fillColor="#81C784"
+        android:pathData="
+            M150,40
+            C140,80 110,110 90,140
+            C80,180 110,210 150,240
+            C180,230 210,200 220,170
+            C230,120 200,90 170,60
+            C160,50 150,40 150,40
+            Z" />
+</vector>
