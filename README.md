@@ -2,6 +2,6 @@ Aplikasi Deteksi Penyakit Daun Apel dikembangkan untuk membantu mendeteksi berba
 <br>
 <img src="Home.jpeg" alt="Halaman Home" width="250"/>
 <img src="HalamanHasilDeteksi.jpeg" alt="Halaman Deskripsi Penyakit" width="250"/>
-<img src="HalamanHasilDeteksi.jpeg" alt="Halaman Hasil Prediksi" width="250"/>
+<img src="Deskripsipenyakit.jpeg" alt="Halaman Hasil Prediksi" width="250"/>
 
 
