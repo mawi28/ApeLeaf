@@ -1,5 +1,5 @@
 Aplikasi Deteksi Penyakit Daun Apel dikembangkan untuk membantu mendeteksi berbagai penyakit pada daun apel menggunakan teknologi Convolutional Neural Network (CNN), khususnya arsitektur ResNet50V2. Aplikasi ini dirancang agar petani dan pengelola kebun apel dapat melakukan deteksi penyakit secara cepat dan akurat, sehingga memungkinkan tindakan pencegahan dini. Dengan antarmuka yang user-friendly, pengguna dapat mengunggah foto daun apel dan memperoleh hasil prediksi beserta tingkat kepercayaan model. Aplikasi ini mendukung identifikasi beberapa jenis penyakit daun apel dan memberikan informasi yang berguna untuk membantu menjaga kesehatan tanaman.
 ![CHalaman Home](Home.jpeg)
-![Halaman Deskripsi Penyakit](Halaman Hasil Deteksi.jpeg)
-![Halaman Hasil Prediksi](Halaman Hasil Deteksi.jpeg)
+![Halaman Deskripsi Penyakit](HalamanHasilDeteksi.jpeg)
+![Halaman Hasil Prediksi](HalamanHasilDeteksi.jpeg)
 
